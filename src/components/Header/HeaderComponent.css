@@ -1,0 +1,41 @@
+.header {
+  background: #707070 0% 0% no-repeat padding-box;
+  clip-path: polygon(0 0, 100% 0%, 100% 55%, 0 45%);
+  border: 1px solid #707070;
+  opacity: 1;
+  padding-top: 0px;
+  padding-bottom: 120px;
+  margin-bottom: -215px;
+text-align: center;
+}
+  
+
+#text-header {
+  color: #FFFFFF;
+  font-size: 15px;
+  font-family: helvetica Neue;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+
+#titulo-principal {
+  margin-top: -24px;
+  padding-top: 0px;
+  font-size: 25px;
+}
+
+#descricao-site {
+  font-family: helvetica Neue;
+  font-size: 15px;
+  padding-top: 0px;
+margin-top: -5px;
+}
+
+.header,
+.text-header {
+  color: #FFFFFF;
+}
+
+.buttons-header {
+  padding-bottom: 128px;
+}
