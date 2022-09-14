@@ -20,3 +20,13 @@
     display: flex;
     justify-content: center;
 }
+
+.btnComprar{
+    background: white ;
+    border: 2px solid gray ;
+    outline-style: none ;
+    border-radius: 9px;
+    padding: 10px 40px 10px 40px;
+    margin-right: 20px;
+    margin-bottom: 45px;
+}

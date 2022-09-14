@@ -1,0 +1,36 @@
+.selecao {
+    display: flex;
+    justify-content: center;
+    margin-top: 59px;
+}
+
+.style {
+    margin: 2px solid black;
+    width: 500px;
+}
+
+#p {
+    margin-top: 0px;
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-bottom: 21px;
+}
+
+#text{
+    text-align: center;
+}
+
+.forms-info{
+    display: flex;
+    justify-content: center;
+    padding-right: 102px;
+}
+
+.forms-input{
+
+}
+#enviar-form{
+ display: flex;
+ justify-content: center;
+}
+

@@ -1,3 +1,7 @@
+
+
+
+
 .header {
   background: #707070 0% 0% no-repeat padding-box;
   clip-path: polygon(0 0, 100% 0%, 100% 55%, 0 45%);
@@ -6,9 +10,9 @@
   padding-top: 0px;
   padding-bottom: 120px;
   margin-bottom: -215px;
-text-align: center;
+  text-align: center;
 }
-  
+
 
 #text-header {
   color: #FFFFFF;
@@ -28,7 +32,7 @@ text-align: center;
   font-family: helvetica Neue;
   font-size: 15px;
   padding-top: 0px;
-margin-top: -5px;
+  margin-top: -5px;
 }
 
 .header,
@@ -36,6 +40,17 @@ margin-top: -5px;
   color: #FFFFFF;
 }
 
-.buttons-header {
+.buttons-header-conteiner {
+  display: flex;
+  justify-content: center;
   padding-bottom: 128px;
+}
+
+.buttons-header {
+  background: white ;
+  border: 2px solid gray ;
+  outline-style: none ;
+  border-radius: 9px;
+  padding: 10px 40px 10px 40px;
+  margin-right: 20px;
 }

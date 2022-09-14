@@ -24,6 +24,7 @@ const ListComponent = () => {
                         <p>ou 2x de R$9,99</p>
 
                     </div>
+                    <button className="btnComprar">Comprar</button>
                 </div>
                 <div className="product-info">
                     <div className="product-picture">
@@ -37,18 +38,7 @@ const ListComponent = () => {
                     <h2>Por: R$ 19,99</h2>
                     <p>ou 2x de R$9,99</p>
 
-                </div>
-                <div className="product-info">
-                    <div className="product-picture">
-
-                    </div>
-                    <h3>Nome do produto</h3>
-                    <p>Descrição do produto um pouco <br />
-                        maior, com duas linhas ou três que <br />
-                        explica melhor do que se trata</p>
-                    <p> de: R$23,99</p>
-                    <h2>Por: R$ 19,99</h2>
-                    <p>ou 2x de R$9,99</p>
+                    <button className="btnComprar">Comprar</button>
 
                 </div>
                 <div className="product-info">
@@ -62,6 +52,23 @@ const ListComponent = () => {
                     <p> de: R$23,99</p>
                     <h2>Por: R$ 19,99</h2>
                     <p>ou 2x de R$9,99</p>
+
+                    <button className="btnComprar">Comprar</button>
+
+                </div>
+                <div className="product-info">
+                    <div className="product-picture">
+
+                    </div>
+                    <h3>Nome do produto</h3>
+                    <p>Descrição do produto um pouco <br />
+                        maior, com duas linhas ou três que <br />
+                        explica melhor do que se trata</p>
+                    <p> de: R$23,99</p>
+                    <h2>Por: R$ 19,99</h2>
+                    <p>ou 2x de R$9,99</p>
+
+                    <button className="btnComprar">Comprar</button>
 
                 </div>
             </section>
@@ -77,6 +84,9 @@ const ListComponent = () => {
                     <p> de: R$23,99</p>
                     <h2>Por: R$ 19,99</h2>
                     <p>ou 2x de R$9,99</p>
+
+                    <button className="btnComprar">Comprar</button>
+
                 </div>
                 <div className="product-info">
                     <div className="product-picture">
@@ -89,6 +99,8 @@ const ListComponent = () => {
                     <p> de: R$23,99</p>
                     <h2>Por: R$ 19,99</h2>
                     <p>ou 2x de R$9,99</p>
+                    <button className="btnComprar">Comprar</button>
+
                 </div>
                 <div className="product-info">
                     <div className="product-picture">
@@ -101,6 +113,8 @@ const ListComponent = () => {
                     <p> de: R$23,99</p>
                     <h2>Por: R$ 19,99</h2>
                     <p>ou 2x de R$9,99</p>
+                    <button className="btnComprar">Comprar</button>
+
                 </div>
                 <div className="product-info">
                     <div className="product-picture">
@@ -113,11 +127,14 @@ const ListComponent = () => {
                     <p> de: R$23,99</p>
                     <h2>Por: R$ 19,99</h2>
                     <p>ou 2x de R$9,99</p>
+
+                    <button className="btnComprar">Comprar</button>
+
                 </div>
             </section>
 
             <div className="btn-main-produtos">
-                <button>Ainda mais produtos aqui!</button>
+                <button className="btnComprar">Ainda mais produtos aqui!</button>
             </div>
 
         </div>)

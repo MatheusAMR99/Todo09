@@ -26,10 +26,11 @@
 }
 
 .section-forms-input {
+    text-align: left;
 
     margin-top: 0px;
     padding-top: 0px;
-    margin-bottom: 15px;
+    margin-bottom: 42px;
 }
 
 .section-forms-submit {
@@ -38,26 +39,33 @@
 
 .input-genero-conteiner {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
 
 }
 
-.Label-genero {
-    margin-left: -91px;
+.genero-positionM {
+    margin-right: 19px;
 }
 
-.selecao {
+#Label-generoM {
+    margin-right: 19px;
+}
+
+
+
+
+
+#enviar-conteiner {
     display: flex;
     justify-content: center;
+    padding-top: 25px;
+    margin-bottom: 62px;
 }
 
-.style {
-    margin: 2px solid black;
-    width: 500px;
-}
-
-#p {
-    margin-top: 0px;
-    margin-right: 5px;
-    margin-left: 5px;
+#enviar {
+    text-align: center;
+    padding: 10px 119px 10px 129px;
+    outline: 0.1px solid;
+    background: none;
+    border-radius: 4px;
 }

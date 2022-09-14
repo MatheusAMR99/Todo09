@@ -39,19 +39,25 @@ const MainComponent = () => {
                                 <input type="text" name="CPF " className="section-forms-submit" />
                             </div >
                             <div className="input-genero-conteiner">
+                                <div className="generoM-position">
+                                    <input id="M" name="genero" type="radio" value='M'></input>
+                                    <label id="Label-generoM" for="gênero">Masculino</label>
+                                </div>
+                                <div className="generoF-position">
+                                    <input id="F" name="genero" type="radio" value='F'></input>
+                                    <label id="Label-generoF" for="gênero">Feminino</label>
+                                </div>
+                            </div>
 
-                                <input id="M" name="genero" type="radio" value='M'></input>
-                                <label className="Label-genero" for="gênero">Masculino</label>
-
-                                <input id="F" name="genero" type="radio" value='F'></input>
-                                <label className="Label-genero" for="gênero">Feminino</label>
+                            <div id= "enviar-conteiner"  >
+                            <button id= "enviar" type="submit"> Enviar</button>
                             </div>
                         </form>
                     </section>
                 </div>
-               
+
             </main>
-            </div>
+        </div>
     )
 }
 
