@@ -1,0 +1,22 @@
+.product-Conteiner {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.product-picture {
+    width: 221px;
+    height: 150px;
+
+    border: 1px solid;
+
+}
+
+.product-info {
+    margin-right: 19px;
+}
+
+.btn-main-produtos{
+    display: flex;
+    justify-content: center;
+}

@@ -1,0 +1,7 @@
+.product-conteiner {
+    display: flex;
+}
+
+.product-picture{
+    border: 1 px solid red;
+}

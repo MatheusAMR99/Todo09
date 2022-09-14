@@ -49,12 +49,7 @@ const MainComponent = () => {
                         </form>
                     </section>
                 </div>
-                <div className="selecao">
-                    <div className="style"><hr /></div>
-                    <div ><p id="p">Sua seleção especial</p></div>
-                    <div className="style"> <hr /></div>
-                </div>
-                
+               
             </main>
             </div>
     )
