@@ -1,0 +1,11 @@
+#footer-conteiner {
+    clip-path: polygon(0 45%, 100% 24%, 100% 100%, 0 100%);
+    background: #707070 0% 0% no-repeat padding-box;
+    display: flex;
+    justify-content: center;
+}
+
+#text-conteiner {
+    text-align: center;
+    color: aliceblue;
+}

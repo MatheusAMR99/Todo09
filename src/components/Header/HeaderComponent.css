@@ -16,7 +16,7 @@
 
 #text-header {
   color: #FFFFFF;
-  font-size: 15px;
+  font-size: 12px;
   font-family: helvetica Neue;
   padding-bottom: 0px;
   margin-bottom: 0px;
@@ -25,11 +25,12 @@
 #titulo-principal {
   margin-top: -24px;
   padding-top: 0px;
-  font-size: 25px;
+  font-size: 21px;
 }
 
 #descricao-site {
   font-family: helvetica Neue;
+  font-weight: bold;
   font-size: 15px;
   padding-top: 0px;
   margin-top: -5px;
@@ -41,9 +42,12 @@
 }
 
 .buttons-header-conteiner {
+  
   display: flex;
   justify-content: center;
   padding-bottom: 128px;
+  z-index: -1;
+  position: relative;
 }
 
 .buttons-header {

@@ -13,7 +13,7 @@ const CompartilheComponent = () => {
             <div id = "text">
                 <h4> Quer que seus amigos também ganhem a lista personalizada deles? Preencha agora!</h4>
             </div>
-            <form >
+            <form className ="forms-conteiner" >
                 <div className="forms-info">
                 <div className="forms-input">
                     <label className="section-forms-text">Nome do seu amigo:</label>
@@ -27,7 +27,7 @@ const CompartilheComponent = () => {
                 </div>
                 </div>
                 <div id="enviar-form">
-                    <button  type ="submit" > Enviar agora</button>
+                    <button  id="enviar-form-button" type ="submit" > Enviar agora</button>
                 </div>
             </form>
         </div>

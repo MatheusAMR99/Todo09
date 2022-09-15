@@ -4,6 +4,9 @@
     margin-top: 59px;
 }
 
+.forms-conteiner{
+   text-align: center;
+}
 .style {
     margin: 2px solid black;
     width: 500px;
@@ -24,13 +27,27 @@
     display: flex;
     justify-content: center;
     padding-right: 102px;
+    margin-left: 102px;
+    margin-bottom: 37px;
 }
 
 .forms-input{
-
+    text-align: center;
+    margin-right: 40px;
 }
 #enviar-form{
  display: flex;
  justify-content: center;
+ margin-left: 94px;
+}
+#enviar-form-button{
+    background: white;
+border: 2px solid gray;
+outline-style: none;
+border-radius: 9px;
+padding: 10px 40px 10px 40px;
+margin-right: 20px;
+margin-bottom: 45px;
+margin-left: -119px;
 }
 
